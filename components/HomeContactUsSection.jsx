@@ -11,10 +11,10 @@ function HomeContactUsSection() {
     </div>
     <div className="container mx-auto flex flex-col items-center gap-16 lg:px-64 font-mont-bold">
         <h1 className="text-6xl text-center hidden lg:block ">
-        Have a project in mind? Let's work together.
+        {"Have a project in mind? Let's work together."}
         </h1>
         <h1 className="text-6xl text-center block lg:hidden">
-        Let's work together.
+        {"Let's work together."}
         </h1>
    <Button>Contact us</Button>
     </div>
