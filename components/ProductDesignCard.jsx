@@ -9,7 +9,7 @@ function ProductDesignCard(props) {
     <Image className='group-hover:scale-105 ease-in-out duration-500' src={image.link} width={2000} height={800} layout='responsive' alt='' />
 </div>
 <div className='flex gap-8 text-primaryGrayAccent text-[0.8rem] font-semibold'>
-  {tags.map(tag=><span>{tag}</span>)}
+  {tags.map((tag,index)=><span key= {index}>{tag}</span>)}
 </div>
 <h1 className='text-3xl text-primaryDark font-bold whitespace-pre'>{title}</h1>
 <p className='text-primaryGrayDark max-w-[65%]'>{description}</p>
