@@ -39,28 +39,33 @@ function NavBar() {
   return (
     <div className="container mx-auto w-full">
       <div
-        className={`fixed -top-2 left-0 z-50 h-20 w-full px-4 lg:px-16 py-6 ${textColor} ${bgColor} transition-colors duration-300 ease-in-out`}
+        className={`fixed -top-2 left-0 z-50 h-24 w-full px-4 lg:px-16 py-6 ${textColor} ${bgColor} transition-colors duration-300 ease-in-out`}
       >
         <div className="flex justify-between w-full container mx-auto ">
           <div>
-            <h1 className="text-2xl  font-medium">CINNAMON</h1>
+            <h1 className="text-2xl  font-medium mt-4">CINNAMON</h1>
           </div>
           <div className="hidden lg:flex items-center gap-8 font-medium ">
             <ul className="flex items-center gap-8 font-mont-semibold">
-              <li className="hover:text-primaryPink duration-300 ease-in-out">
+              <li className="hover:text-primaryPink duration-300 ease-in-out flex flex-col items-center gap-2 p group mt-4 ">
                 <Link href="/">Projects</Link>
+                <span className="group-hover:bg-primaryPink bg-transparent w-2 h-2 rounded-full "/>
               </li>
-              <li className="hover:text-primaryPink duration-300 ease-in-out">
+              <li className="hover:text-primaryPink duration-300 ease-in-out flex flex-col items-center gap-2 p group mt-4 ">
                 <Link href="/">Services</Link>
+                <span className="group-hover:bg-primaryPink bg-transparent w-2 h-2 rounded-full "/>
               </li>
-              <li className="hover:text-primaryPink duration-300 ease-in-out">
+              <li className="hover:text-primaryPink duration-300 ease-in-out flex flex-col items-center gap-2 p group mt-4 ">
                 <Link href="/">About Us</Link>
+                <span className="group-hover:bg-primaryPink bg-transparent w-2 h-2 rounded-full "/>
               </li>
-              <li className="hover:text-primaryPink duration-300 ease-in-out">
+              <li className="hover:text-primaryPink duration-300 ease-in-out flex flex-col items-center gap-2 p group mt-4 ">
                 <Link href="/">Careers</Link>
+                <span className="group-hover:bg-primaryPink bg-transparent w-2 h-2 rounded-full "/>
               </li>
-              <li className="hover:text-primaryPink duration-300 ease-in-out">
+              <li className="hover:text-primaryPink duration-300 ease-in-out flex flex-col items-center gap-2 p group mt-4 ">
                 <Link href="/">Blog</Link>
+                <span className="group-hover:bg-primaryPink bg-transparent  w-2 h-2 rounded-full "/>
               </li>
             </ul>
             <div className="flex items-center gap-8">
