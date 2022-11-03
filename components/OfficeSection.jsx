@@ -33,12 +33,12 @@ function OfficeSection() {
         </div>
         <div className='flex gap-8'>
      <div className=''>
-      <Image className='hidden' src='/assets/grayLeftArrow.png' width={50} height={25} />
-      <Image src='/assets/rightArrow-2.png' width={50} height={25} />
+      <Image className='hidden' src='/assets/grayLeftArrow.png' width={50} height={25} alt='' />
+      <Image src='/assets/rightArrow-2.png' width={50} height={25} alt='' />
      </div>
      <div>
-      <Image className='hidden' src='/assets/grayRightArrow.png' width={50} height={25} />
-      <Image src='/assets/leftArrow-2.png' width={50} height={25} />
+      <Image className='hidden' src='/assets/grayRightArrow.png' width={50} height={25} alt='' />
+      <Image src='/assets/leftArrow-2.png' width={50} height={25} alt='' />
      </div>
         </div>
         </div>

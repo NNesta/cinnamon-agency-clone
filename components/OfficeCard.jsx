@@ -8,7 +8,7 @@ function OfficeCard(props) {
   return (
     <div className='flex flex-col gap-4'>
         <div>
-       <Image src={image} width={500} height={200}/>
+       <Image src={image} width={500} height={200} alt=''/>
         </div>
         <div className='flex gap-8'>
           {console.log(Location)}

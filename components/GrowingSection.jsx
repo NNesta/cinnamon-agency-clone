@@ -14,15 +14,15 @@ function GrowingSection() {
      <div className="flex flex-col gap-8">
         <div className="flex justify-between">
             <h2 className='text-xl'>Android Developer</h2>
-            <Image src='/assets/whiteArrow.png' width={50} height={25}/>
+            <Image src='/assets/whiteArrow.png' width={50} height={25} alt=''/>
         </div>
         <div className="flex justify-between">
             <h2 className='text-xl'>Android Developer</h2>
-            <Image src='/assets/whiteArrow.png' width={50} height={25}/>
+            <Image src='/assets/whiteArrow.png' width={50} height={25} alt=''/>
         </div>
         <div className="flex justify-between">
             <h2 className='text-xl'>Backend Development Team Lead</h2>
-            <Image src='/assets/whiteArrow.png' width={50} height={25}/>
+            <Image src='/assets/whiteArrow.png' width={50} height={25} alt=''/>
         </div>
      </div>
         </div>

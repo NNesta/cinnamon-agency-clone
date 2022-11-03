@@ -14,7 +14,7 @@ function Footer() {
       </div>
       <div className='grid lg:grid-cols-5 gap-8 text-xl'>
         <div className='col-span-2'>
-          <h1 className='font-medium py-8'>Home</h1>
+          <h1 className='font-medium py-8 text-white'>Home</h1>
         <ul className='lg:flex flex-col gap-6 flex-1 grid grid-cols-2'>
         
       <li>Projects</li>
@@ -25,7 +25,7 @@ function Footer() {
       </ul>
         </div>
         <div className='flex flex-col gap-4'>
-          <h1 className='text-lg font-medium py-8'>Zagreb</h1>
+          <h1 className='text-lg font-medium py-8 text-white'>Zagreb</h1>
           <ul className='flex flex-col gap-6'>
             <li>Slavonska avenija 6,</li>
             <li>10000, Zagreb, Croatia</li>
@@ -33,14 +33,14 @@ function Footer() {
           </ul>
         </div>
         <div className='flex flex-col gap-4'>
-          <h1 className='text-lg font-medium py-8'>New York</h1>
+          <h1 className='text-lg font-medium py-8 text-white'>New York</h1>
           <ul className='flex flex-col gap-6'>
             <li>500 7th Ave, New York,</li>
             <li>NY 10018, United States</li>
           </ul>
         </div>
         <div className='flex flex-col gap-4'>
-          <h1 className='text-lg font-medium py-8'>Belgrade</h1>
+          <h1 className='text-lg font-medium py-8 text-white'>Belgrade</h1>
           <ul className='flex flex-col gap-6'>
             <li>Bulevar vojvode Mišića 37</li>
             <li>11000, Belgrade, Serbia</li>
@@ -56,8 +56,8 @@ function Footer() {
     <Button>Subscribe</Button>
       </div>
      <div className="flex flex-col gap-4 order-2 lg:order-3">
-     <Image src='/assets/pangea.svg' width={70} height={35}/>
-     <Image src='/assets/clutch.webp' width={70} height={35}/>
+     <Image src='/assets/pangea.svg' width={70} height={35} alt='footer-image'/>
+     <Image src='/assets/clutch.webp' width={70} height={35} alt='footer-image'/>
       </div>
       </div>
         <div className='flex lg:flex-row flex-col lg:justify-between'>
@@ -66,12 +66,12 @@ function Footer() {
      <Link className='flex-1' href='/'>Privacy Policy</Link>  
      </div>
         <div className='flex gap-4 items-center order-1 lg:order-2'>
-     <Image src='/assets/linkedin-2.png' width={25} height={25}/>
-     <Image src='/assets/ball-2.png' width={25} height={25}/>
-     <Image src='/assets/beicon.png' width={25} height={25}/>
-     <Image src='/assets/insta-2.png' width={25} height={25}/>
-     <Image src='/assets/face-2.png' width={25} height={25}/>
-     <Image src='/assets/wifi.png' width={25} height={25}/>
+     <Image src='/assets/linkedin-2.png' width={25} height={25} alt='footer-image'/>
+     <Image src='/assets/ball-2.png' width={25} height={25} alt='footer-image'/>
+     <Image src='/assets/beicon.png' width={25} height={25} alt='footer-image'/>
+     <Image src='/assets/insta-2.png' width={25} height={25} alt='footer-image'/>
+     <Image src='/assets/face-2.png' width={25} height={25} alt='footer-image'/>
+     <Image src='/assets/wifi.png' width={25} height={25} alt='footer-image'/>
       </div>
         </div>
         

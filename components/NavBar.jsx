@@ -60,7 +60,7 @@ const clickHandler = ()=>{
          </div>
          </div>
     <button onClick={clickHandler} className='block lg:hidden'>
-      <Image src={menu} width={35} height={35}/>
+      <Image src={menu} width={35} height={35} alt='menu button'/>
     </button>
        </div>
       </div>

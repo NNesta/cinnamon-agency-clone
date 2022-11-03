@@ -5,7 +5,7 @@ function BlogCard(props) {
     const {image, category, author,date,time,title} = props;
   return (
     <div className='flex flex-col gap-2 group'>
-       <Image src={image} width={400} height={400}/>
+       <Image alt='image' src={image} width={400} height={400}/>
        <p className='font-semibold group-hover:text-primaryPink duration-300'>{category}</p>
        <div className='flex gap-[0.3rem] items-center'>
        <p className='text-ellipsis overflow-hidden max-w-[11rem] whitespace-nowrap'>{author}</p>

@@ -22,12 +22,12 @@ function CommunicationSection() {
     </div>
 </div>
 <div className='flex w-72 justify-between'>
-    <Image width={40} height={40} src='/assets/leftArrow.png'/>
-    <Image width={40} height={40} src='/assets/rightArrow.png'/>
+    <Image width={40} height={40} src='/assets/leftArrow.png' alt='arrow'/>
+    <Image width={40} height={40} src='/assets/rightArrow.png' alt='arrow-2'/>
 </div>
     </div>
     <div className='hidden lg:flex flex-col justify-between'>
-     <Image width={200} height={200} src='/assets/ping.png'/>
+     <Image width={200} height={200} src='/assets/ping.png' alt='piung'/>
      <div className='flex gap-8 items-center'>
     <Link className='flex gap-4 text-primaryPink' href='/'>
     <img src="/assets/chevronLeft.svg" alt="" />
