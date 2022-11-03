@@ -8,8 +8,8 @@ function ServiceCard(props) {
        <div>
         <Image src={image} width={40} height={40} alt='' />
        </div>
-       <h1 className='text-xl font-semibold'>{title}</h1>
-       <p>{description}</p>
+       <h1 className='text-3xl font-mont-bold'>{title}</h1>
+       <p className='font-mont'>{description}</p>
     </div>
   )
 }

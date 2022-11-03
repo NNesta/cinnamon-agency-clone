@@ -24,16 +24,17 @@ function BlogSection() {
           title:'How Tinder Swindled User Experience'},
     ]
   return (
-    <div className='container mx-auto w-full py-32'>
-        <div className="flex flex-col gap-4 px-32">
+    <div className="w-screen">
+    <div className='w-fit container mx-auto py-32'>
+        <div className="flex flex-col gap-4 lg:px-32">
             <h1>Stay in the loop on tech topics</h1>
-          <div className="grid lg:grid-cols-3 gap-4">
+          <div className="inline-flex gap-4 overflow-scroll w-full scrollbar-hide">
        {blogs.map((blog,index)=><BlogCard key={index} image={blog.image} category={blog.category} author={blog.author} date={blog.date} time={blog.time} title={blog.title} />)}
         </div>  
         </div>
         
         
-    </div>
+    </div></div>
   )
 }
 

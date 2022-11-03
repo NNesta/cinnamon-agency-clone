@@ -21,11 +21,11 @@ function ServicesSection() {
     },
     ]
   return (
-    <div className='relative  w-full h-full bg-primaryBlack bg-[url("/assets/noise.png")] py-32'>
+    <div className='relative  w-screen h-full bg-primaryBlack bg-[url("/assets/noise.png")] py-32'>
      <div className='absolute inset-0 -z-10 h-full w-full hidden lg:block'/>
-     <div className='w-full h-full pt-16 flex flex-col gap-4 container mx-auto px-16'>
+     <div className='w-full h-full pt-16 flex flex-col gap-4 container mx-auto px-8 lg:px-16'>
         <div className='grid lg:grid-cols-3 gap-4 text-primaryWhite'>
-            <h1 className='text-4xl font-bold'>Our services</h1>
+            <h1 className='text-4xl font-mont-bold'>Our services</h1>
             <div className='col-span-2 grid lg:grid-cols-2 gap-16 max-w-[85%]'>
 
   {services.map((service,index)=> <ServiceCard key={index} title={service.title} image={service.image} description={service.description} />)}

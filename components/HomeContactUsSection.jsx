@@ -4,12 +4,13 @@ import Image from 'next/image';
 
 function HomeContactUsSection() {
   return (
-    <div className='w-full h-full relative py-32 bg-primaryWhite'>
+    <div className="w-screen">
+      <div className='w-full h-full relative py-32 bg-primaryWhite'>
     <div className='absolute left-0 bottom-0 hidden lg:block'>
       <Image src='/assets/contact-1.png' width={300} height={300} alt=''/>
     </div>
-    <div className="container mx-auto flex flex-col items-center gap-16 lg:px-64">
-        <h1 className="text-6xl font-semibold text-center hidden lg:block ">
+    <div className="container mx-auto flex flex-col items-center gap-16 lg:px-64 font-mont-bold">
+        <h1 className="text-6xl text-center hidden lg:block ">
         Have a project in mind? Let's work together.
         </h1>
         <h1 className="text-6xl text-center block lg:hidden">
@@ -19,6 +20,8 @@ function HomeContactUsSection() {
     </div>
 
     </div>
+    </div>
+    
   )
 }
 

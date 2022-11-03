@@ -5,7 +5,7 @@
 @font-face {
   font-family: 'Mont';
   src: local('Mont'), 
-  url('/fonts/MontRegular.ttf') format('ttf'), 
+  url('/fonts/MontRegular.woff2') format('woff2'), 
   url('/fonts/Mont/MontRegular.woff') format('woff');
   font-style: normal;
   font-weight: normal;
@@ -15,7 +15,7 @@
 @font-face {
   font-family: 'MontSemiBold';
   src: local('MontBold'), 
-  url('/fonts/Mont-SemiBold.ttf') format('ttf'), 
+  url('/fonts/MontSemiBold.woff2') format('woff2'), 
   url('/fonts/Mont/MontSemiBold.woff') format('woff');
   font-style: normal;
   font-weight: normal;
@@ -25,7 +25,7 @@
 @font-face {
   font-family: 'MontBold';
   src: local('MontHeavy'), 
-  url('/fonts/Mont-Bold.ttf') format('ttf'), 
+  url('/fonts/MontBold.woff2') format('woff2'), 
   url('/fonts/Mont/MontBold.woff') format('woff');
   font-style: normal;
   font-weight: normal;
@@ -35,12 +35,12 @@
 @font-face {
   font-family: 'MontHeavy';
   src: local('MontHeavy'), 
-  url('/fonts/Mont-Heavy.ttf') format('ttf'), 
+  url('/fonts/MontHeavy.woff2') format('woff2'), 
   url('/fonts/Mont/MontHeavy.woff') format('woff');
   font-style: normal;
   font-weight: normal;
   font-display: swap;
 }
 body{
-  @apply font-mont font-mont-semibold font-mont-bold font-mont-heavy;
+  @apply font-mont font-mont-semibold font-mont-bold font-mont-heavy overflow-x-hidden;
 }

@@ -31,11 +31,12 @@ function ProductDesignSection() {
         }
     ]
   return (
+    <div className='relative w-screen h-full'>
     <div className='container mx-auto w-full my-20'>
-     <div className='flex flex-col space-y-8 px-32'>
+     <div className='flex flex-col space-y-8 px-4 lg:px-32 w-full'>
 {products.map((product,index)=><ProductDesignCard key={index} image={product.image} tags={product.tags} title={product.title} description={product.description}/>)}
      </div>
-    </div>
+    </div></div>
   )
 }
 

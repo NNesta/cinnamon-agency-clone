@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 
 function MyApp({ Component, pageProps }) {
   return (
-  <div  className="w-fit">
+  <div  className="">
   <NavBar/>
   <Component {...pageProps} />
   <Footer/>

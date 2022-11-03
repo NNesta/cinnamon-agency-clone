@@ -17,15 +17,16 @@ function OfficeSection() {
         {
             title: 'Belgrade',
             image: '/assets/office-3.jpeg',
-            address: 'Bu'
+            address: 'Bulevar vojvode Mišića 37 11000, Belgrade, Serbia'
         }
     ]
   return (
+    <div className='w-screen'>
 
-    <div className='container mx-auto w-full'>
-        <div className="flex flex-col">
+    <div className='mx-auto container w-full relative '>
+        <div className="flex flex-col gap-16 ">
             <h1 className="text-5xl">Our offices</h1>
-            <div className="flex  gap-4 relative">
+            <div className="inline-flex gap-4">
                 {/* <div className='absolute top-0 left-0 flex w-[400%] gap-8 snap-none'> */}
 
              {offices.map((office,index)=><OfficeCard key={index} title={office.title} image={office.image} address={office.address}/>)}
@@ -44,7 +45,7 @@ function OfficeSection() {
         </div>
         
 
-    </div>
+    </div></div>
   )
 }
 
