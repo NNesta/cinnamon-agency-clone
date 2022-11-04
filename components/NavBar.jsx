@@ -42,8 +42,8 @@ function NavBar() {
         className={`fixed -top-2 left-0 z-50 h-24 w-full px-4 lg:px-16 py-6 ${textColor} ${bgColor} transition-colors duration-300 ease-in-out`}
       >
         <div className="flex justify-between w-full container mx-auto ">
-          <div>
-            <h1 className="text-2xl  font-medium mt-4">CINNAMON</h1>
+          <div className="group">
+            <h1 className="text-2xl  font-medium mt-4 group-hover:delay">CINNAMON</h1>
           </div>
           <div className="hidden lg:flex items-center gap-8 font-medium ">
             <ul className="flex items-center gap-8 font-mont-semibold">

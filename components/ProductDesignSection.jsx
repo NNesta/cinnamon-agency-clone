@@ -4,7 +4,7 @@ import ProductDesignCard from './ProductDesignCard';
 function ProductDesignSection() {
     const products = [
         {
-            image:{link: 'https:////images.ctfassets.net/6mf4aqitzrkt/281NSZSG7VvkxHDig0qbBA/70ac7de86b0bb84190916ee9aac33aa7/Mockup_1.png',
+            image:{link: '/assets/designed-11.png',
             imageColor: 'bg-primaryGreen',},
             tags: ['PRODUCT DESIGN', 'QUALITY ASSURANCE'],
             title: 'Corrily: Optimize prices\nto maximize revenue',
