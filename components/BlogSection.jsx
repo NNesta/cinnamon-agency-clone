@@ -33,7 +33,7 @@ function BlogSection() {
       <div className="w-fit container mx-auto py-32">
         <div className="flex flex-col gap-4 lg:px-32">
           <h1>Stay in the loop on tech topics</h1>
-          <div className="inline-flex gap-4 overflow-scroll w-full scrollbar-hide">
+          <div className="inline-flex gap-4 overflow-scroll w-screen scrollbar-hide">
             {blogs.map((blog, index) => (
               <BlogCard
                 key={index}

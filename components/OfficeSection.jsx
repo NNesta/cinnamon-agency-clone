@@ -26,7 +26,7 @@ function OfficeSection() {
     <div className="w-full lg:pl-32 py-32">
         <div className="flex flex-col gap-16 ">
           <h1 className="text-6xl font-mont-bold">Our offices</h1>
-      <div className={`mx-auto lg:w-[1536px] relative duration-300 ease-in-out ${scroll?'-translate-x-[40%]':'translate-x-[0%]'} overflow-scroll scrollbar-hide lg:overflow-visible`}>
+      <div className={`mx-auto w-screen lg:w-[1536px] relative duration-300 ease-in-out ${scroll?'-translate-x-[40%]':'translate-x-[0%]'} overflow-scroll scrollbar-hide lg:overflow-visible`}>
           <div className="inline-flex gap-4">
             {/* <div className='absolute top-0 left-0 flex w-[400%] gap-8 snap-none'> */}
 
