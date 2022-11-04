@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import OfficeCard from "./OfficeCard";
 import Image from "next/image";
 
@@ -20,11 +20,13 @@ function OfficeSection() {
       address: "Bulevar vojvode Mišića 37 11000, Belgrade, Serbia",
     },
   ];
+  const [scroll, setScroll] = useState(false);
+  const clickHandler=()=>setScroll(!scroll)
   return (
-    <div className="w-full">
-      <div className="mx-auto container w-full relative ">
+    <div className="w-full pl-32 py-32">
         <div className="flex flex-col gap-16 ">
-          <h1 className="text-5xl">Our offices</h1>
+          <h1 className="text-6xl font-mont-bold">Our offices</h1>
+      <div className={`mx-auto w-[1536px] relative duration-300 ease-in-out ${scroll?'-translate-x-[40%]':'translate-x-[0%]'}`}>
           <div className="inline-flex gap-4">
             {/* <div className='absolute top-0 left-0 flex w-[400%] gap-8 snap-none'> */}
 
@@ -37,40 +39,50 @@ function OfficeSection() {
               />
             ))}
           </div>
-          <div className="flex gap-8">
+        </div>
+      </div>
+          <div className="flex gap-8 py-16">
+              <button>
             <div className="">
               <Image
-                className="hidden"
+                className={`${scroll?"block":"hidden"}`}
                 src="/assets/grayLeftArrow.png"
                 width={50}
                 height={25}
                 alt=""
               />
               <Image
+               onClick={clickHandler}
+              className={`${scroll?"hidden":"block"} hover:-translate-y-2 duration-300 ease-in-out`}
                 src="/assets/rightArrow-2.png"
                 width={50}
                 height={25}
                 alt=""
               />
             </div>
+              </button>
+              <button onClick={clickHandler}>
             <div>
+
               <Image
-                className="hidden"
+              className={`${scroll?"hidden":"block"}`}
                 src="/assets/grayRightArrow.png"
                 width={50}
                 height={25}
                 alt=""
-              />
+                />
+
               <Image
+               onClick={clickHandler}
+              className={`${scroll?"block":"hidden"} hover:-translate-y-2 duration-300 ease-in-out`}
                 src="/assets/leftArrow-2.png"
                 width={50}
                 height={25}
                 alt=""
-              />
+                />
             </div>
+                </button>
           </div>
-        </div>
-      </div>
     </div>
   );
 }
