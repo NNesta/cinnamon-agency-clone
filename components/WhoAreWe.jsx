@@ -4,7 +4,7 @@ import Button from "./Button";
 
 function WhoAreWe() {
   return (
-    <div className="w-screen h-fit bg-primaryWhite py-52">
+    <div className="w-full h-fit bg-primaryWhite py-52">
       <div className="relative">
         <div className="absolute right-0 top-0 hidden lg:block">
           <Image src="/assets/who.png" width={300} height={300} alt="" />
