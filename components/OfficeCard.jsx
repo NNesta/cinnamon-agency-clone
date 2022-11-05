@@ -4,9 +4,9 @@ import Image from "next/image";
 function OfficeCard(props) {
   const { image, title, address } = props;
   return (
-    <div className="flex flex-col gap-6 w-[644px] md:w-220 group">
+    <div className="flex flex-col gap-6 w-[540px] md:w-220 group">
       <div>
-        <Image src={image} width={600} height={60} alt="" layout="responsive" />
+        <Image src={image} width={580} height={60} alt="" layout="responsive" />
       </div>
       <div className="flex gap-8 items-center">
         <div className="group-hover:text-primaryPink duration-300 ease-in-out">

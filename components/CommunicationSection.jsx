@@ -5,13 +5,13 @@ import Link from "next/link";
 function CommunicationSection() {
   return (
     <div className="w-full h-full">
-      <div className="container mx-auto w-full  py-32 px-8 lg:px-32 relative">
-        <p className="text-[175px] font-mont-heavy text-[#EDEAFF] -z-10  absolute top-8 left-16">
+      <div className="container mx-auto w-full  py-32 px-8 lg:px-16 relative">
+        <p className="text-[200px] font-mont-heavy text-[#EDEAFF] -z-10  absolute top-8 -left-4">
           “
         </p>
         <div className="flex lg:flex-row flex-col justify-between">
-          <div className="flex flex-col gap-8 lg:max-w-[70%]">
-            <h1 className="text-3xl lg:text-5xl font-mont-bold">
+          <div className="flex flex-col gap-16 lg:max-w-[60%]">
+            <h1 className="text-[3rem] leading-[60px] lg:text-4xl font-mont-bold">
               They’re consistent, and the communication is good.
             </h1>
             <p className="lg:max-w-[80%] font-mont">
@@ -19,13 +19,13 @@ function CommunicationSection() {
               and after hours. Cinnamon gives the impression of being a smaller
               team that’s focused on customers.
             </p>
-            <div className="flex lg:flex-row flex-col">
+            <div className="flex lg:flex-row flex-col lg:items-center gap-8">
               <div>
                 <Image src="/assets/gorin.png" width={75} height={75} alt="" />
               </div>
               <div>
-                <h1 className="font-mont-bold">Garin Toren,</h1>
-                <p className="font-mont">CEO, ping</p>
+                <h1 className="font-mont-bold text-2xl">Garin Toren,</h1>
+                <p className="font-mont text-lg">CEO, ping</p>
               </div>
             </div>
             <div className="flex w-32 justify-between">
@@ -43,7 +43,7 @@ function CommunicationSection() {
               />
             </div>
           </div>
-          <div>
+          <div className="flex justify-between flex-col">
             <Image
               className="hidden lg:flex flex-col justify-between"
               width={200}
