@@ -77,12 +77,10 @@ function NavBar() {
             </ul>
             <div className="flex items-center gap-8">
               <div
-                className={` border-2 ${outline} rounded-full hover:bg-primaryPink duration-300 relative ease-in-out group overflow-hidden`}
+                className={` border-2 ${outline} rounded-full hover:bg-primaryPink duration-300 ease-in-out`}
               >
-                       <span className='w-0 aspect-square bg-white -z-0 rounded-full absolute inset-0 -left-[0.35rem] m-auto  group-hover:w-[110%] duration-300 ease-in-out'/>
-
                 <BsPlayFill
-                  className={`${fill} z-50 hover:fill-white duration-300 ease-in-out relative`}
+                  className={`${fill} z-50 hover:fill-white duration-300 ease-in-out`}
                   size={35}
                 />
               </div>
