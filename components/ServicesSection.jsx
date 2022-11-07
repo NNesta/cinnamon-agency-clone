@@ -30,11 +30,12 @@ function ServicesSection() {
     },
   ];
   return (
+    <div className="w-screen">
     <div className='relative  w-full h-full bg-primaryBlack bg-[url("/assets/noise.png")] py-16 lg:py-32'>
       <div className="absolute inset-0 -z-10 h-full w-full hidden lg:block" />
       <div className="w-full h-full pt-16 flex flex-col gap-4 container mx-auto px-8 lg:px-32">
         <div className="flex flex-col lg:flex-row justify-between text-primaryWhite">
-          <h1 className="text-4xl font-mont-bold w-[200%] pb-16 lg:pb-0">Our services</h1>
+          <h1 className="text-4xl font-mont-bold lg:w-[200%] pb-16 lg:pb-0">Our services</h1>
           <div className="col-span-2 grid lg:grid-cols-2 gap-16">
             {services.map((service, index) => (
               <ServiceCard
@@ -48,7 +49,7 @@ function ServicesSection() {
           </div>
         </div>
       </div>
-    </div>
+    </div></div>
   );
 }
 

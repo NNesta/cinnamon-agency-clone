@@ -4,7 +4,7 @@ import Image from "next/image";
 function OfficeCard(props) {
   const { image, title, address } = props;
   return (
-    <div className="flex flex-col gap-6 w-[540px] md:w-220 group">
+    <div className="flex flex-col gap-6 w-screen  md:w-[540px] group">
       <div>
         <Image src={image} width={580} height={60} alt="" layout="responsive" />
       </div>

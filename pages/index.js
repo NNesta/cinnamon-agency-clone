@@ -19,7 +19,7 @@ export default function Home() {
   <meta name="description" content="NEAR dev 101 clone Created By Ngabonziza Nestor" />
         <link rel="icon" href="/assets/logo-1.png" />
     </Head>
-    <div>
+    <div >
       <HeroSection />
       <ProductDesignSection/>
       <ServicesSection/>
@@ -29,8 +29,8 @@ export default function Home() {
       <CollegeSection/>
       <GrowingSection/>
       <OfficeSection/>
-      <BlogSection/>
-      <HomeContactUsSection/>
+      <BlogSection/> 
+       <HomeContactUsSection/>
     </div>
     </>
   )
