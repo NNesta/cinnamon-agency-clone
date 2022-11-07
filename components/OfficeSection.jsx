@@ -23,8 +23,8 @@ function OfficeSection() {
   const [scroll, setScroll] = useState(false);
   const clickHandler=()=>setScroll(!scroll)
   return (
-    <div className="w-full container mx-auto lg:pl-20 py-32">
-        <div className="flex flex-col gap-16 ">
+    <div className="w-full container mx-auto py-32 px-16">
+        <div className="flex flex-col gap-16">
           <h1 className="text-6xl font-mont-bold text-primaryDarkBlack">Our offices</h1>
       <div className={`mx-auto w-screen lg:w-full relative duration-300 ease-in-out ${scroll?'-translate-x-[40%]':'translate-x-[0%]'} overflow-x-scroll scrollbar-hide lg:overflow-visible`}>
           <div className="inline-flex gap-8">
@@ -41,7 +41,7 @@ function OfficeSection() {
           </div>
         </div>
       </div>
-          <div className="flex gap-8 py-16">
+          <div className="hidden lg:flex gap-8 py-16">
               <button>
             <div className="">
               <Image

@@ -29,11 +29,11 @@ function BlogSection() {
     },
   ];
   return (
-    <div className="w-full">
-      <div className="w-fit container mx-auto py-32">
-        <div className="flex flex-col gap-8 lg:px-32">
-          <h1 className="text-6xl font-mont-bold max-w-[50%] leading-[4.5rem]">Stay in the loop on tech topics</h1>
-          <div className="inline-flex gap-4 overflow-x-scroll w-full scrollbar-hide">
+    <div className="w-screen">
+      <div className="w-full container mx-auto py-32 px-8 lg:px-16">
+        <div className="flex flex-col gap-8">
+          <h1 className="text-5xl lg:text-6xl font-mont-bold lg:max-w-[50%] leading-[4rem] lg:leading-[4.5rem]">Stay in the loop on tech topics</h1>
+          <div className="inline-flex gap-4 h-full overflow-x-scroll w-full scrollbar-hide">
             {blogs.map((blog, index) => (
               <BlogCard
                 key={index}

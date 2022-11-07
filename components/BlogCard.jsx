@@ -4,7 +4,7 @@ import Image from 'next/image';
 function BlogCard(props) {
     const {image, category, author,date,time,title} = props;
   return (
-    <div className='flex flex-col gap-2 group min-w-[45%] lg:min-w-[10%] h-[400px]'>
+    <div className='flex flex-col gap-2 group min-w-full lg:min-w-[30%] '>
        <Image alt='image' src={image} width={400} height={400} layout='responsive'/>
        <p className='font-mont-semibold group-hover:text-primaryPink duration-300'>{category}</p>
        <div className='flex gap-[0.3rem] items-center font-mont'>
