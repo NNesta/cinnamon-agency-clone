@@ -34,6 +34,7 @@ function NavBar() {
 
   const clickHandler = () => {
     setNav(!nav);
+    setBgColor("bg-primaryBlack")
   };
 
   return (

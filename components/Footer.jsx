@@ -7,8 +7,8 @@ function Footer() {
   return (
     <div className="w-full">
       <div className='relative  w-full h-full bg-primaryBlack bg-[url("/assets/noise.png")] font-mont'>
-        <div className="container mx-auto px-12 lg:px-16 text-primaryWhite pt-32">
-          <div className="flex flex-col lg:flex-row gap-16 lg:justify-between max-w-[60%] lg:max-w-[90%] px-4 py-8 ">
+        <div className="container mx-auto px-8 lg:px-16 text-primaryWhite pt-32">
+          <div className="flex flex-col lg:flex-row gap-16 lg:justify-between  py-8 ">
             <h1 className="text-4xl font-mont-bold">CINNAMON</h1>
             <h1 className="text-4xl font-mont-bold leading-normal max-w-[80%]">
               All software, zero bullshit.
