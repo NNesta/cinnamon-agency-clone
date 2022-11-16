@@ -11,7 +11,7 @@ function CommunicationSection() {
         </p>
         <div className="flex lg:flex-row flex-col justify-between">
           <div className="flex flex-col gap-16 lg:max-w-[60%]">
-            <h1 className="text-[3rem] leading-10 lg:text-4xl font-mont-bold">
+            <h1 className="text-lg2 lg:xl2 leading-10 lg:text-4xl font-mont-bold">
               They’re consistent, and the communication is good.
             </h1>
             <p className="lg:max-w-[80%] font-mont">

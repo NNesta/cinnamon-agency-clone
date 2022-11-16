@@ -19,6 +19,10 @@ module.exports = {
         primaryPurple: '#52247F',
         primaryAmber: '#FFCD4E',
       },
+      fontSize:{
+         lg2: ['2rem','1.37em'],
+         xl2: ['2.5rem','1.4em'],
+      },
       fontFamily:{
         "mont":"Mont,'arial'",
         "mont-semibold":"'MontSemiBold','arial'",
